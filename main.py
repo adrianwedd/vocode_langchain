@@ -27,7 +27,7 @@ BASE_URL = os.getenv("BASE_URL")
 if not BASE_URL:
     raise ValueError("BASE_URL must be set in environment")
 
-greeting = "Hey Alex! What's up? How can I help you today?"
+greeting = "Hey! How can I help?"
 
 chat_gpt_agent_config = ChatGPTAgentConfig(
     initial_message = BaseMessage(text = greeting),
@@ -37,7 +37,7 @@ chat_gpt_agent_config = ChatGPTAgentConfig(
 
 langchain_agent_config = LangchainAgentConfig(
     initial_message=BaseMessage(text = greeting),
-    model_name = "text-davinci-003",
+    model_name = "gpt-3.5-turbo",
     allowed_idle_time_seconds = 60
 )
 

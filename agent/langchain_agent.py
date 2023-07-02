@@ -15,9 +15,9 @@ from langchain.utilities.zapier import ZapierNLAWrapper
 from langchain.agents import initialize_agent
 
 class LangchainAgentConfig(AgentConfig, type="langchain_agent"):
-    model_name: str = "text-davinci-003"
+    model_name: str = "gpt-3.5-turbo"
     temperature: float = 0
-    max_tokens: int = 256
+    max_tokens: int = 2048
     cut_off_response: Optional[CutOffResponse] = None
 
 class LangchainAgent(RespondAgent[LangchainAgentConfig]):

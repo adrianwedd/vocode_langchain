@@ -4,5 +4,5 @@ services:
   github:
     branch: main
     deploy_on_push: true
-    repo: amrynsky/vocode_langchain
+    repo: adrianwedd/vocode_langchain
   name: langchain-server

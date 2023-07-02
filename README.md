@@ -15,4 +15,4 @@ pip install -r requirements.txt
 
 ## Deploying the App
 
-[![Deploy to DigitalOcean](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/amrynsky/vocode_langchain/tree/main)
+[![Deploy to DigitalOcean](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/adrianwedd/vocode_langchain/tree/main)
