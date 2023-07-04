@@ -60,7 +60,7 @@ tokenizers==0.13.3
 tqdm==4.65.0
 twilio==8.4.0
 typing-inspect==0.9.0
-typing_extensions==4.7.0
+typing_extensions==4.7.1
 urllib3==2.0.3
 uvicorn==0.21.1
 vocode==0.1.110
